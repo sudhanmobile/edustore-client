@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,7 +9,7 @@ import androidx.preference.SwitchPreferenceCompat;
 
 import com.google.android.material.materialswitch.MaterialSwitch;
 
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 public class DestructiveSwitchPreference extends SwitchPreferenceCompat {
     public DestructiveSwitchPreference(Context context, AttributeSet attrs, int defStyleAttr) {

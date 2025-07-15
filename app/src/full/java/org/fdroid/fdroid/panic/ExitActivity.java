@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.Intent;
 import android.os.Bundle;

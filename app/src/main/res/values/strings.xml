@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_name_full">F-Droid</string>
-    <string name="app_name_basic">F-Droid Basic</string>
+    <string name="app_name_full">Edu-Store</string>
+    <string name="app_name_basic">Edu-Store Basic</string>
 
     <string name="SignatureMismatch">The new version is signed with a different key to the old one. To install the new
         version, the old one must be uninstalled first. Please do this and try again. (Note that uninstalling will erase
@@ -38,8 +38,8 @@
     <string name="keep_install_history">Keep install history</string>
     <string name="keep_install_history_summary">Store a log of all installs and uninstalls in a private store</string>
     <string name="send_to_fdroid_metrics">Send usage data</string>
-    <string name="send_to_fdroid_metrics_summary">Sends anonymous data weekly to F-Droid Metrics (requires "Keep install history")</string>
-    <!-- message shown as a "toast" when the user enables the Send to F-Droid Metrics preference -->
+    <string name="send_to_fdroid_metrics_summary">Sends anonymous data weekly to Edu-Store Metrics (requires "Keep install history")</string>
+    <!-- message shown as a "toast" when the user enables the Send to Edu-Store Metrics preference -->
     <string name="toast_metrics_in_install_history">The %s Metrics report is viewable in the install history viewer</string>
     <string name="send_version_and_uuid">Send version and UUID to servers</string>
     <string name="send_version_and_uuid_summary">Include this app\'s version and a random, unique ID when
@@ -124,8 +124,8 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="app_details_more_apps_interesting">This might also be interesting to you:</string>
     <string name="app_details_more_apps_by_author">More apps by %1$s</string>
 
-    <string name="about_title_full">About F-Droid</string>
-    <string name="about_title_basic">About F-Droid Basic</string>
+    <string name="about_title_full">About Edu-Store</string>
+    <string name="about_title_basic">About Edu-Store Basic</string>
     <string name="about_version">Version</string>
     <string name="about_site">Website</string>
     <string name="about_forum">Support forum</string>
@@ -146,7 +146,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="app__tts__cancel_download">Cancel download</string>
     <string name="app__install_downloaded_update">Update</string>
     <string name="app_installed_media">File installed to %s</string>
-    <string name="app_permission_storage">F-Droid needs the storage permission to install this to storage. Please allow it on the next screen to proceed with installation.</string>
+    <string name="app_permission_storage">Edu-Store needs the storage permission to install this to storage. Please allow it on the next screen to proceed with installation.</string>
     <string name="app_size">Size: %1$s</string>
     <string name="app_error_open">Could not launch app.</string>
 
@@ -162,7 +162,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="installed_apps__activity_title">Installed apps</string>
     <!-- Should be exactly the same as the standard word for "Share" throughout Android and apps -->
     <string name="send_installed_apps">Share installed apps</string>
-    <string name="send_installed_apps_csv">Apps installed by F-Droid as CSV file</string>
+    <string name="send_installed_apps_csv">Apps installed by Edu-Store as CSV file</string>
     <string name="installed_app__updates_ignored">Updates ignored</string>
     <string name="installed_app__updates_ignored_for_suggested_version">Updates ignored for version %1$s</string>
 
@@ -213,7 +213,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="bluetooth_activity_not_found">No Bluetooth send method found, choose one!</string>
     <string name="choose_bt_send">Choose Bluetooth send method</string>
 
-    <string name="repo_intro">A repository is an additional source of apps. Third-party ones you add here have different standards than those providing apps built by F-Droid itself.\n\nPlease ensure that the repository you are adding is trustworthy.</string>
+    <string name="repo_intro">A repository is an additional source of apps. Third-party ones you add here have different standards than those providing apps built by Edu-Store itself.\n\nPlease ensure that the repository you are adding is trustworthy.</string>
     <string name="repo_scan_qr_code">Scan QR code</string>
     <string name="repo_state_fetching">Fetching repository…</string>
     <string name="repo_state_adding">Adding repository…</string>
@@ -365,7 +365,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="force_touch_apps_on">Show apps that require touchscreen regardless of hardware support</string>
 
     <string name="local_repo">Local Repo</string>
-    <string name="local_repo_running">F-Droid is ready to swap</string>
+    <string name="local_repo_running">Edu-Store is ready to swap</string>
     <string name="touch_to_configure_local_repo">Touch to view details and allow others to swap your apps.</string>
     <string name="deleting_repo">Deleting current repo…</string>
     <string name="adding_apks_format">Adding %s to repo…</string>
@@ -550,7 +550,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     </plurals>
 
     <string name="empty_installed_app_list">No apps installed.\n\nThere are apps on your device, but they are not
-        available from F-Droid. This could be because you need to update your repositories, or the repositories
+        available from Edu-Store. This could be because you need to update your repositories, or the repositories
         genuinely don\'t have your apps available.
     </string>
     <string name="empty_can_update_app_list">Congratulations!\nYour apps are up to date.</string>
@@ -570,7 +570,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="nearby_splash__document_tree">Search USB OTG for repos and mirrors.</string>
     <!-- This is a button label for a small button, the text needs to be under 10 characters, the shorter the better. Also, a literal translation probably will miss the point. "Try it" is more a saying than two words. Google has been pushing these short buttons, like "Got it" and "Try now" so this button is trying to match those buttons in Android. -->
     <string name="nearby_splash__request_permission">Search now</string>
-    <string name="nearby_splach__external_storage_permission_explainer">F-Droid can search for repos and mirrors on your SD Card, but needs your permission to do so.</string>
+    <string name="nearby_splach__external_storage_permission_explainer">Edu-Store can search for repos and mirrors on your SD Card, but needs your permission to do so.</string>
     <string name="nearby_splace__external_storage_permission_button">Try it</string>
 
     <string name="swap_join_same_wifi">Join the same Wi-Fi as your friend</string>
@@ -593,7 +593,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="swap_view_available_networks">Tap to open available networks</string>
     <string name="swap_switch_to_wifi">Tap to switch to a Wi-Fi network</string>
     <string name="open_qr_code_scanner">Open QR scanner</string>
-    <string name="swap_welcome">Welcome to F-Droid!</string>
+    <string name="swap_welcome">Welcome to Edu-Store!</string>
     <string name="swap_confirm_connect">Do you want to get apps from %1$s now?</string>
     <string name="swap_dont_show_again">Don\'t show this again</string>
     <string name="swap_scan_or_type_url">One person needs to scan the code, or type the URL of the other in a browser.
@@ -623,7 +623,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="swap_wifi_device_name">Device name</string>
     <string name="swap_cant_find_peers">Can\'t find who you\'re looking for?</string>
     <!-- This is a button label, it must be the right size, or the layout gets messed up. It should be less than 15 characters. -->
-    <string name="swap_send_fdroid">Send F-Droid</string>
+    <string name="swap_send_fdroid">Send Edu-Store</string>
     <string name="apps">Apps</string>
     <string name="swap_no_peers_nearby">Could not find people nearby to swap with.</string>
     <!-- This is a screen title, it should be maximum 25 characters -->
@@ -634,7 +634,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="use_bluetooth">Use Bluetooth</string>
     <string name="loading">Loading…</string>
     <string name="swap_connection_misc_error">Error occurred while connecting to device, can\'t swap with it!</string>
-    <string name="swap_connection_indexv0_error">You\'re trying to connect to someone with an outdated version of F-Droid. To connect they have to upgrade their F-Droid app. They can use swap to update their F-Droid app from you.</string>
+    <string name="swap_connection_indexv0_error">You\'re trying to connect to someone with an outdated version of Edu-Store. To connect they have to upgrade their Edu-Store app. They can use swap to update their Edu-Store app from you.</string>
     <string name="not_visible_nearby">Nearby not enabled</string>
     <string name="not_visible_nearby_description">Before swapping with nearby devices, make your device visible.</string>
     <string name="swap_toast_using_path">Using %1$s</string>
@@ -711,7 +711,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="theme_dark">Dark</string>
     <string name="theme_follow_system">Follow system</string>
 
-    <string name="crash_dialog_title">F-Droid has crashed</string>
+    <string name="crash_dialog_title">Edu-Store has crashed</string>
     <string name="crash_dialog_text">An unexpected error occurred
         forcing the app to stop. Would you like to e-mail the
         details to help fix the issue?
@@ -805,7 +805,7 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="paste">Paste</string>
 
     <string name="ipfsgw_title">IPFS gateways</string>
-    <string name="ipfsgw_explainer">Download apps from IPFS web endpoints. (Only works for F-Droid repositories with IPFS support.)</string>
+    <string name="ipfsgw_explainer">Download apps from IPFS web endpoints. (Only works for Edu-Store repositories with IPFS support.)</string>
     <plurals name="ipfsgw_summary">
         <item quantity="other">Download apps using IPFS web endpoints: %1$d enabled</item>
     </plurals>

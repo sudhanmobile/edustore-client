@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -11,7 +11,7 @@ import android.text.TextUtils;
 import androidx.test.core.app.ApplicationProvider;
 
 import org.apache.commons.io.IOUtils;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.Utils;
 import org.fdroid.index.SigningException;
 import org.fdroid.index.v1.IndexV1UpdaterKt;
 import org.fdroid.index.v1.IndexV1VerifierKt;

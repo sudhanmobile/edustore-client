@@ -17,7 +17,7 @@
  * MA 02110-1301, USA.
  */
 
-package org.fdroid.fdroid.installer;
+package org.edustore.app.installer;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -31,9 +31,9 @@ import android.util.Log;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import org.fdroid.fdroid.AssetUtils;
-import org.fdroid.fdroid.compat.FileCompatTest;
-import org.fdroid.fdroid.data.Apk;
+import org.edustore.app.AssetUtils;
+import org.edustore.app.compat.FileCompatTest;
+import org.edustore.app.data.Apk;
 import org.fdroid.index.v2.PermissionV2;
 import org.junit.Before;
 import org.junit.Test;

@@ -224,7 +224,7 @@
         }
       }
     },
-    "org.fdroid.fdroid": {
+    "org.edustore.app": {
       "metadata": {
         "name": {
           "en-US": "F-DroidX",
@@ -260,14 +260,14 @@
         "flattrID": "343053",
         "icon": {
           "en-US": {
-            "name": "/org.fdroid.fdroid/en-US/new icon",
+            "name": "/org.edustore.app/en-US/new icon",
             "sha256": "324a109b2352138c3699760e1683385d1ed50ce526fc7982f8d65757743374ba",
             "size": 2233
           }
         },
         "featureGraphic": {
           "en-US": {
-            "name": "/org.fdroid.fdroid/en-US/featureGraphic_PTun9TO4cMFOeiqbvQSrkdcxNUcOFQCymMIaj9UJOAY=.jpg",
+            "name": "/org.edustore.app/en-US/featureGraphic_PTun9TO4cMFOeiqbvQSrkdcxNUcOFQCymMIaj9UJOAY=.jpg",
             "sha256": "424a109b2352138c3699760e1683385d0ed50ce526fc7982f8d65757743374bf",
             "size": 4237
           }
@@ -276,27 +276,27 @@
           "phone": {
             "en-US": [
               {
-                "name": "/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-app-details.png",
+                "name": "/org.edustore.app/en-US/phoneScreenshots/screenshot-app-details.png",
                 "sha256": "424a109b2352138c3699760e1683385d0ed50ce526fc7982f8d65757743374bf",
                 "size": 4237
               },
               {
-                "name": "/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-dark-details.png",
+                "name": "/org.edustore.app/en-US/phoneScreenshots/screenshot-dark-details.png",
                 "sha256": "424a109b2352138c3699760e1683385d0ed50ce526fc7982f8d65757743374bf",
                 "size": 44287
               },
               {
-                "name": "/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-dark-home.png",
+                "name": "/org.edustore.app/en-US/phoneScreenshots/screenshot-dark-home.png",
                 "sha256": "424a109b2352138c3699760e1673385d0ed50ce526fc7982f8d65757743374bf",
                 "size": 4587
               },
               {
-                "name": "/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-search.png",
+                "name": "/org.edustore.app/en-US/phoneScreenshots/screenshot-search.png",
                 "sha256": "424a109b2352138c3694760e1683385d0ed50ce526fc7982f8d65757743374bf",
                 "size": 2857
               },
               {
-                "name": "/org.fdroid.fdroid/en-US/phoneScreenshots/screenshot-updates.png",
+                "name": "/org.edustore.app/en-US/phoneScreenshots/screenshot-updates.png",
                 "sha256": "424a109b2352138c3699750e1683385d0ed50ce526fc7982f8d65757743374bf",
                 "size": 485286
               }
@@ -305,7 +305,7 @@
           "tenInch": {
             "ch": [
               {
-                "name": "/org.fdroid.fdroid/ch/tenInchScreenshots/new screenshots",
+                "name": "/org.edustore.app/ch/tenInchScreenshots/new screenshots",
                 "sha256": "54758e380ae76297c7947f107db9ea03d2933c9d5c110d02046977cf78d43def",
                 "size": -9223372036854775808
               }
@@ -317,12 +317,12 @@
         "b4282febf5558d43c7c51a00478961f6df1b6d59e0a6674974cdacb792683e5d": {
           "added": 1642785071000,
           "file": {
-            "name": "/org.fdroid.fdroid_1014005.apk",
+            "name": "/org.edustore.app_1014005.apk",
             "sha256": "b4282febf5558d43c7c51a00478961f6df1b6d59e0a6674974cdacb792683e5d",
             "size": 8382606
           },
           "src": {
-            "name": "/org.fdroid.fdroid_1014005_src.tar.gz",
+            "name": "/org.edustore.app_1014005_src.tar.gz",
             "sha256": "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d07",
             "size": 8165519
           },
@@ -351,12 +351,12 @@
         "c062a9642fde08aacabbfa4cab1ab5773c83f4e6b81551ffd92027d2b20f37d3": {
           "added": 1635169849000,
           "file": {
-            "name": "/org.fdroid.fdroid_1014003.apk",
+            "name": "/org.edustore.app_1014003.apk",
             "sha256": "c062a9642fde08aacabbfa4cab1ab5773c83f4e6b81551ffd92027d2b20f37d3",
             "size": 8276110
           },
           "src": {
-            "name": "/org.fdroid.fdroid_1014003_src.tar.gz",
+            "name": "/org.edustore.app_1014003_src.tar.gz",
             "sha256": "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             "size": 8165519
           },
@@ -427,12 +427,12 @@
         "3243c24ee95be0fce0830d72e7d2605e3e24f6ccf4ee72a7c8e720fccd7621a1": {
           "added": 1632281731000,
           "file": {
-            "name": "/org.fdroid.fdroid_1014002.apk",
+            "name": "/org.edustore.app_1014002.apk",
             "sha256": "3243c24ee95be0fce0830d72e7d2605e3e24f6ccf4ee72a7c8e720fccd7621a1",
             "size": 8284386
           },
           "src": {
-            "name": "/org.fdroid.fdroid_1014002_src.tar.gz",
+            "name": "/org.edustore.app_1014002_src.tar.gz",
             "sha256": "7c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             "size": 7165519
           },
@@ -513,12 +513,12 @@
         "7ebfd5eb76f9ec95ba955e549260fe930dc38fb99ed3532f92c93b879aca5610": {
           "added": 1632281729000,
           "file": {
-            "name": "/org.fdroid.fdroid_1014001.apk",
+            "name": "/org.edustore.app_1014001.apk",
             "sha256": "7ebfd5eb76f9ec95ba955e549260fe930dc38fb99ed3532f92c93b879aca5610",
             "size": 8272166
           },
           "src": {
-            "name": "/org.fdroid.fdroid_1014001_src.tar.gz",
+            "name": "/org.edustore.app_1014001_src.tar.gz",
             "sha256": "6c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             "size": 6165519
           },
@@ -748,12 +748,12 @@
         "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06": {
           "added": 1643250075000,
           "file": {
-            "name": "/org.fdroid.fdroid_1014050.apk",
+            "name": "/org.edustore.app_1014050.apk",
             "sha256": "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
             "size": 8165518
           },
           "src": {
-            "name": "/org.fdroid.fdroid_1014050_src.tar.gz",
+            "name": "/org.edustore.app_1014050_src.tar.gz",
             "sha256": "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
             "size": 8165518
           },

@@ -17,7 +17,7 @@
  * MA 02110-1301, USA.
  */
 
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.Context;
 

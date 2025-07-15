@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.WifiPeer;
-import org.fdroid.fdroid.views.repos.ManageReposActivity;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.WifiPeer;
+import org.edustore.app.views.repos.ManageReposActivity;
 
 import java.util.Arrays;
 import java.util.List;

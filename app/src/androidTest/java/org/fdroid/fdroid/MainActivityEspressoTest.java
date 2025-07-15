@@ -1,4 +1,4 @@
-package org.fdroid.fdroid;
+package org.edustore.app;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
@@ -39,8 +39,8 @@ import androidx.test.uiautomator.UiObject;
 import androidx.test.uiautomator.UiObjectNotFoundException;
 import androidx.test.uiautomator.UiSelector;
 
-import org.fdroid.fdroid.views.StatusBanner;
-import org.fdroid.fdroid.views.main.MainActivity;
+import org.edustore.app.views.StatusBanner;
+import org.edustore.app.views.main.MainActivity;
 import org.hamcrest.Matchers;
 import org.junit.After;
 import org.junit.AfterClass;

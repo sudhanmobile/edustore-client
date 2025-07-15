@@ -265,15 +265,15 @@ internal class IndexV2DiffTest : DbTest() {
     fun testMidRemoveScreenshots() {
         val diffRepoIdJson = """{
           "packages": {
-            "org.fdroid.fdroid": {
+            "org.edustore.app": {
               "metadata": {
                 "screenshots": null
               }
             }
           }
         }""".trimIndent()
-        val fdroidPackage = TestDataMidV2.packages["org.fdroid.fdroid"]!!.copy(
-            metadata = TestDataMidV2.packages["org.fdroid.fdroid"]!!.metadata.copy(
+        val fdroidPackage = TestDataMidV2.packages["org.edustore.app"]!!.copy(
+            metadata = TestDataMidV2.packages["org.edustore.app"]!!.metadata.copy(
                 screenshots = null,
             )
         )

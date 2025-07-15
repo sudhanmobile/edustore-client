@@ -1,9 +1,9 @@
-package org.fdroid.fdroid.net;
+package org.edustore.app.net;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import org.fdroid.fdroid.Preferences;
+import org.edustore.app.Preferences;
 import org.junit.Test;
 
 import java.io.IOException;

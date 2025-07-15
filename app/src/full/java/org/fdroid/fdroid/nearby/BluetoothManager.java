@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -18,9 +18,9 @@ import android.util.Log;
 import androidx.core.content.ContextCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.BluetoothPeer;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.BluetoothPeer;
 
 import java.lang.ref.WeakReference;
 

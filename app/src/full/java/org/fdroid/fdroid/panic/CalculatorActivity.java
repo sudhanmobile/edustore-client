@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.appbar.MaterialToolbar;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.R;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.R;
 
 import java.util.regex.Pattern;
 

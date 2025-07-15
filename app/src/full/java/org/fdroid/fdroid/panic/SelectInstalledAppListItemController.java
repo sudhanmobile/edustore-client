@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.view.View;
 
@@ -6,11 +6,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.fdroid.fdroid.AppUpdateStatusManager;
-import org.fdroid.fdroid.data.Apk;
-import org.fdroid.fdroid.data.App;
-import org.fdroid.fdroid.views.apps.AppListItemState;
-import org.fdroid.fdroid.views.installed.InstalledAppListItemController;
+import org.edustore.app.AppUpdateStatusManager;
+import org.edustore.app.data.Apk;
+import org.edustore.app.data.App;
+import org.edustore.app.views.apps.AppListItemState;
+import org.edustore.app.views.installed.InstalledAppListItemController;
 
 import java.util.Set;
 

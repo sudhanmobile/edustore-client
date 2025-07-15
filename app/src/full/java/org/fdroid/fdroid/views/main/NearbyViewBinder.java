@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.views.main;
+package org.edustore.app.views.main;
 
 import android.Manifest;
 import android.content.Context;
@@ -27,11 +27,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.SDCardScannerService;
-import org.fdroid.fdroid.nearby.SwapService;
-import org.fdroid.fdroid.nearby.TreeUriScannerIntentService;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.SDCardScannerService;
+import org.edustore.app.nearby.SwapService;
+import org.edustore.app.nearby.TreeUriScannerIntentService;
 
 import java.io.File;
 import java.util.List;
@@ -57,7 +57,7 @@ import java.util.concurrent.Executor;
  * <p>
  *
  * @see TreeUriScannerIntentService
- * @see org.fdroid.fdroid.nearby.SDCardScannerService
+ * @see org.edustore.app.nearby.SDCardScannerService
  * <p>
  * TODO use {@link StorageManager#registerStorageVolumeCallback(Executor, StorageManager.StorageVolumeCallback)}
  */
@@ -109,7 +109,7 @@ public class NearbyViewBinder {
                     String state = Environment.getExternalStorageState(dir);
                     if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)
                             || Environment.MEDIA_MOUNTED.equals(state)) {
-                        // remove Android/data/org.fdroid.fdroid/files to get root
+                        // remove Android/data/org.edustore.app/files to get root
                         externalStorage = dir.getParentFile().getParentFile().getParentFile().getParentFile();
                         break;
                     }

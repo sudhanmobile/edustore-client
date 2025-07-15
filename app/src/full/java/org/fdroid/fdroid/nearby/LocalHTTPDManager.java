@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Preferences;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Preferences;
 
 import java.io.IOException;
 import java.net.BindException;

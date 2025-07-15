@@ -1,11 +1,11 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.net.wifi.WifiManager;
 
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.Utils;
 
 public class WifiStateChangeReceiver extends BroadcastReceiver {
     private static final String TAG = "WifiStateChangeReceiver";

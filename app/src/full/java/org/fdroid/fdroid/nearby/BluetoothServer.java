@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothServerSocket;
@@ -8,9 +8,9 @@ import android.webkit.MimeTypeMap;
 
 import androidx.annotation.RequiresPermission;
 
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.httpish.Request;
-import org.fdroid.fdroid.nearby.httpish.Response;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.httpish.Request;
+import org.edustore.app.nearby.httpish.Response;
 
 import java.io.File;
 import java.io.FileInputStream;

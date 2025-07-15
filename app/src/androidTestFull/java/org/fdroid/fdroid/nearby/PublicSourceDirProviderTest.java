@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

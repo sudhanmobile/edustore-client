@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby.peers;
+package org.edustore.app.nearby.peers;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import org.fdroid.fdroid.FDroidApp;
+import org.edustore.app.FDroidApp;
 
 import javax.jmdns.ServiceInfo;
 import javax.jmdns.impl.FDroidServiceInfo;

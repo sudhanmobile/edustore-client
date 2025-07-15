@@ -1,6 +1,6 @@
 package org.fdroid.download.glide
 
-import org.fdroid.fdroid.isMatching
+import org.edustore.app.isMatching
 import java.io.IOException
 import java.io.InputStream
 import java.security.DigestInputStream

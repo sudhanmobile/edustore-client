@@ -24,7 +24,7 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import org.fdroid.fdroid.BuildConfig;
+import org.edustore.app.BuildConfig;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

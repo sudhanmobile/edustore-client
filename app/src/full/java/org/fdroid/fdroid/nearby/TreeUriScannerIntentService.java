@@ -17,7 +17,7 @@
  * MA 02110-1301, USA.
  */
 
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -30,9 +30,9 @@ import androidx.annotation.NonNull;
 import androidx.core.app.JobIntentService;
 import androidx.documentfile.provider.DocumentFile;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.views.repos.AddRepoActivity;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.R;
+import org.edustore.app.views.repos.AddRepoActivity;
 import org.fdroid.index.RepoManager;
 import org.fdroid.index.SigningException;
 import org.fdroid.index.v1.IndexV1UpdaterKt;
@@ -70,7 +70,7 @@ public class TreeUriScannerIntentService extends JobIntentService {
     public static final String TAG = "TreeUriScannerIntentSer";
     private static final int JOB_ID = TAG.hashCode();
 
-    private static final String ACTION_SCAN_TREE_URI = "org.fdroid.fdroid.nearby.action.SCAN_TREE_URI";
+    private static final String ACTION_SCAN_TREE_URI = "org.edustore.app.nearby.action.SCAN_TREE_URI";
 
     /**
      * @see <a href="https://android.googlesource.com/platform/frameworks/base/+/android-10.0.0_r38/core/java/android/provider/DocumentsContract.java#238">DocumentsContract.EXTERNAL_STORAGE_PROVIDER_AUTHORITY</a>

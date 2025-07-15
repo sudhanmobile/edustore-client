@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.work
+package org.edustore.app.work
 
 import android.os.Build.VERSION.SDK_INT
 import android.text.format.DateUtils
@@ -18,16 +18,16 @@ import io.mockk.just
 import io.mockk.mockk
 import io.mockk.mockkStatic
 import io.mockk.verify
-import org.fdroid.fdroid.AppUpdateManager
-import org.fdroid.fdroid.FDroidApp
-import org.fdroid.fdroid.Preferences
-import org.fdroid.fdroid.Preferences.OVER_NETWORK_ALWAYS
-import org.fdroid.fdroid.net.ConnectivityMonitorService
-import org.fdroid.fdroid.net.ConnectivityMonitorService.FLAG_NET_METERED
-import org.fdroid.fdroid.net.ConnectivityMonitorService.FLAG_NET_NO_LIMIT
-import org.fdroid.fdroid.net.ConnectivityMonitorService.FLAG_NET_UNAVAILABLE
-import org.fdroid.fdroid.work.AppUpdateWorker.Companion.UNIQUE_WORK_NAME_APP_UPDATE
-import org.fdroid.fdroid.work.AppUpdateWorker.Companion.UNIQUE_WORK_NAME_AUTO_APP_UPDATE
+import org.edustore.app.AppUpdateManager
+import org.edustore.app.FDroidApp
+import org.edustore.app.Preferences
+import org.edustore.app.Preferences.OVER_NETWORK_ALWAYS
+import org.edustore.app.net.ConnectivityMonitorService
+import org.edustore.app.net.ConnectivityMonitorService.FLAG_NET_METERED
+import org.edustore.app.net.ConnectivityMonitorService.FLAG_NET_NO_LIMIT
+import org.edustore.app.net.ConnectivityMonitorService.FLAG_NET_UNAVAILABLE
+import org.edustore.app.work.AppUpdateWorker.Companion.UNIQUE_WORK_NAME_APP_UPDATE
+import org.edustore.app.work.AppUpdateWorker.Companion.UNIQUE_WORK_NAME_AUTO_APP_UPDATE
 import org.junit.Assume.assumeTrue
 import org.junit.Before
 import org.junit.runner.RunWith

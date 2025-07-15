@@ -17,7 +17,7 @@
  * MA 02110-1301, USA.
  */
 
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
@@ -29,7 +29,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.fdroid.fdroid.views.main.NearbyViewBinder;
+import org.edustore.app.views.main.NearbyViewBinder;
 
 import java.util.HashMap;
 

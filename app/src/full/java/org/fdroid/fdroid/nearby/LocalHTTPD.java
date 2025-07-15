@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 /*
  * #%L
@@ -36,7 +36,7 @@ package org.fdroid.fdroid.nearby;
 import android.content.Context;
 import android.net.Uri;
 
-import org.fdroid.fdroid.BuildConfig;
+import org.edustore.app.BuildConfig;
 
 import java.io.File;
 import java.io.FileInputStream;

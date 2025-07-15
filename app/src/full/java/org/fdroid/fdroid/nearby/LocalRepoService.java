@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -30,8 +30,8 @@ import java.util.Set;
 public class LocalRepoService extends IntentService {
     public static final String TAG = "LocalRepoService";
 
-    public static final String ACTION_CREATE = "org.fdroid.fdroid.nearby.action.CREATE";
-    public static final String EXTRA_PACKAGE_NAMES = "org.fdroid.fdroid.nearby.extra.PACKAGE_NAMES";
+    public static final String ACTION_CREATE = "org.edustore.app.nearby.action.CREATE";
+    public static final String EXTRA_PACKAGE_NAMES = "org.edustore.app.nearby.extra.PACKAGE_NAMES";
 
     public static final String ACTION_STATUS = "localRepoStatusAction";
     public static final String EXTRA_STATUS = "localRepoStatusExtra";

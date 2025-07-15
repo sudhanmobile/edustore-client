@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby.peers;
+package org.edustore.app.nearby.peers;
 
 import android.os.Parcelable;
 

@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -35,12 +35,12 @@ import com.google.android.material.appbar.MaterialToolbar;
 import org.fdroid.database.AppListItem;
 import org.fdroid.database.AppPrefsDao;
 import org.fdroid.database.FDroidDatabase;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.data.DBHelper;
-import org.fdroid.fdroid.views.installed.InstalledAppListAdapter;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.data.DBHelper;
+import org.edustore.app.views.installed.InstalledAppListAdapter;
 
 import java.util.List;
 

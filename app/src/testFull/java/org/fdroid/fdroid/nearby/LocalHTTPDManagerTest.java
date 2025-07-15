@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -8,8 +8,8 @@ import android.content.Context;
 
 import androidx.test.core.app.ApplicationProvider;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Utils;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.util.Log;
@@ -16,8 +16,8 @@ import org.bouncycastle.cert.jcajce.JcaX509CertificateConverter;
 import org.bouncycastle.operator.ContentSigner;
 import org.bouncycastle.operator.OperatorCreationException;
 import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Utils;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<org.fdroid.fdroid.nearby.SwapView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.edustore.app.nearby.SwapView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:swap="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
@@ -62,4 +62,4 @@
 
         </LinearLayout>
     </ScrollView>
-</org.fdroid.fdroid.nearby.SwapView>
+</org.edustore.app.nearby.SwapView>

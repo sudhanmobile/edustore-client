@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.fdroid.fdroid.views.StatusBanner
+            <org.edustore.app.views.StatusBanner
                 android:id="@+id/banner_updating_repos"
                 style="@style/StatusBanner"
                 android:layout_width="0dp"

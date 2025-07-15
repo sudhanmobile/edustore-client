@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.ComponentName;
 import android.content.DialogInterface;
@@ -27,9 +27,9 @@ import androidx.preference.SwitchPreferenceCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.installer.PrivilegedInstaller;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.installer.PrivilegedInstaller;
 
 import java.util.ArrayList;
 import java.util.Collections;

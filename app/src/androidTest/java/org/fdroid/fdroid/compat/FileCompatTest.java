@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.compat;
+package org.edustore.app.compat;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -13,8 +13,8 @@ import android.util.Log;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import org.fdroid.fdroid.AssetUtils;
-import org.fdroid.fdroid.data.SanitizedFile;
+import org.edustore.app.AssetUtils;
+import org.edustore.app.data.SanitizedFile;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

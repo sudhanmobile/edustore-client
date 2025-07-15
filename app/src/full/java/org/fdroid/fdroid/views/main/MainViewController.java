@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.views.main;
+package org.edustore.app.views.main;
 
 import android.widget.FrameLayout;
 
@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.views.PreferencesFragment;
-import org.fdroid.fdroid.views.updates.UpdatesViewBinder;
+import org.edustore.app.R;
+import org.edustore.app.views.PreferencesFragment;
+import org.edustore.app.views.updates.UpdatesViewBinder;
 
 /**
  * Decides which view on the main screen to attach to a given {@link FrameLayout}. This class

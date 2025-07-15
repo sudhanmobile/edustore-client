@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 /*
  * #%L
@@ -47,7 +47,7 @@ import androidx.test.core.app.ApplicationProvider;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.Utils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

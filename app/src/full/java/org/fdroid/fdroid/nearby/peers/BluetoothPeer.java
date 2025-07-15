@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby.peers;
+package org.edustore.app.nearby.peers;
 
 import android.bluetooth.BluetoothClass.Device;
 import android.bluetooth.BluetoothDevice;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresPermission;
 
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 public class BluetoothPeer implements Peer {
 

@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.updater;
+package org.edustore.app.updater;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -17,16 +17,16 @@ import android.util.Log;
 import androidx.test.filters.LargeTest;
 import androidx.test.platform.app.InstrumentationRegistry;
 
-import org.fdroid.fdroid.BuildConfig;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Hasher;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.LocalHTTPD;
-import org.fdroid.fdroid.nearby.LocalRepoKeyStore;
-import org.fdroid.fdroid.nearby.LocalRepoManager;
-import org.fdroid.fdroid.nearby.LocalRepoService;
-import org.fdroid.fdroid.nearby.SwapService;
+import org.edustore.app.BuildConfig;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Hasher;
+import org.edustore.app.Preferences;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.LocalHTTPD;
+import org.edustore.app.nearby.LocalRepoKeyStore;
+import org.edustore.app.nearby.LocalRepoManager;
+import org.edustore.app.nearby.LocalRepoService;
+import org.edustore.app.nearby.SwapService;
 import org.fdroid.index.v1.IndexV1;
 import org.fdroid.index.v1.PackageV1;
 import org.junit.Test;
@@ -44,7 +44,7 @@ public class SwapRepoEmulatorTest {
     public static final String TAG = "SwapRepoEmulatorTest";
 
     /**
-     * @see org.fdroid.fdroid.nearby.WifiStateChangeService.WifiInfoThread#run()
+     * @see org.edustore.app.nearby.WifiStateChangeService.WifiInfoThread#run()
      */
     @Test
     public void testSwap() throws Exception {

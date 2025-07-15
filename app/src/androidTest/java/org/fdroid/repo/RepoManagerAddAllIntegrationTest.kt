@@ -6,8 +6,8 @@ import androidx.test.ext.junit.runners.AndroidJUnit4
 import app.cash.turbine.TurbineTestContext
 import app.cash.turbine.test
 import kotlinx.coroutines.runBlocking
-import org.fdroid.fdroid.data.DBHelper
-import org.fdroid.fdroid.net.DownloaderFactory
+import org.edustore.app.data.DBHelper
+import org.edustore.app.net.DownloaderFactory
 import org.fdroid.index.RepoManager
 import org.junit.Assume.assumeTrue
 import org.junit.Before

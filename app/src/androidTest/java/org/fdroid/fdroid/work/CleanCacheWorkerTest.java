@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.work;
+package org.edustore.app.work;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -15,7 +15,7 @@ import androidx.work.WorkInfo;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import org.apache.commons.io.FileUtils;
-import org.fdroid.fdroid.compat.FileCompatTest;
+import org.edustore.app.compat.FileCompatTest;
 import org.junit.Rule;
 import org.junit.Test;
 

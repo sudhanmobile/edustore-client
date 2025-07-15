@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.fdroid.fdroid
+package org.edustore.app
 
 import java.security.DigestInputStream
 

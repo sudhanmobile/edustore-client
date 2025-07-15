@@ -10,8 +10,8 @@ internal class IndexUtilsTest {
     /**
      * Test the replacement for the ancient fingerprint algorithm.
      *
-     * @see org.fdroid.fdroid.data.Apk.sig
-     * @see org.fdroid.fdroid.Utils.getsig
+     * @see org.edustore.app.data.Apk.sig
+     * @see org.edustore.app.Utils.getsig
      */
     @Deprecated("Only here for backwards compatibility when writing out index-v1.json")
     @Test

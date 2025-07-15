@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.views.main;
+package org.edustore.app.views.main;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.RecyclerView;
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 public class LatestLayoutPolicy {
     private final Context context;
@@ -55,8 +55,8 @@ public class LatestLayoutPolicy {
      * Applies padding to items, ensuring that the spacing on the left, centre, and right all match.
      * The vertical padding is slightly shorter than the horizontal padding also.
      *
-     * @see org.fdroid.fdroid.R.dimen#latest__padding__app_card__horizontal
-     * @see org.fdroid.fdroid.R.dimen#latest__padding__app_card__vertical
+     * @see org.edustore.app.R.dimen#latest__padding__app_card__horizontal
+     * @see org.edustore.app.R.dimen#latest__padding__app_card__vertical
      */
     private static class ItemDecorator extends RecyclerView.ItemDecoration {
         private final Context context;

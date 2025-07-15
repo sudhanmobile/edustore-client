@@ -17,7 +17,7 @@ public object IndexUtils {
      * [android.content.pm.PackageInfo.signatures] or [android.content.pm.Signature].
      * The Android docs about APK signatures call this the "signer".
      *
-     * @see org.fdroid.fdroid.data.Apk#signer
+     * @see org.edustore.app.data.Apk#signer
      * @see android.content.pm.PackageInfo#signatures
      * @see <a href="https://source.android.com/docs/security/features/apksigning/v2">APK Signature Scheme v2</a>
      */
@@ -33,8 +33,8 @@ public object IndexUtils {
      * `index-v1.json`.
      *
      * @see getPackageSigner
-     * @see org.fdroid.fdroid.Utils.getPackageSigner
-     * @see org.fdroid.fdroid.data.Apk
+     * @see org.edustore.app.Utils.getPackageSigner
+     * @see org.edustore.app.data.Apk
      */
     @Deprecated("Only here for backwards compatibility when writing out index-v1.json")
     public fun getsig(signerBytes: ByteArray): String {

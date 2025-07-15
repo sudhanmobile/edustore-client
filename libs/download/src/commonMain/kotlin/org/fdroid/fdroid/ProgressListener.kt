@@ -1,4 +1,4 @@
-package org.fdroid.fdroid
+package org.edustore.app
 
 /**
  * This is meant only to send download progress for any URL (e.g. index

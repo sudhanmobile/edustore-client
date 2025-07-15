@@ -207,7 +207,7 @@ object TestDataMidV2 {
     val repoCompat = repo.v1compat()
 
     const val PACKAGE_NAME_1 = TestDataMinV1.PACKAGE_NAME
-    const val PACKAGE_NAME_2 = "org.fdroid.fdroid"
+    const val PACKAGE_NAME_2 = "org.edustore.app"
     val version1_1 = PackageVersionV2(
         added = 2342,
         file = FileV1(
@@ -307,7 +307,7 @@ object TestDataMidV2 {
     val version2_1 = PackageVersionV2(
         added = 1643250075000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014050.apk",
+            name = "/org.edustore.app_1014050.apk",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
             size = 8165518,
         ),
@@ -344,7 +344,7 @@ object TestDataMidV2 {
             ),
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014050_src.tar.gz",
+            name = "/org.edustore.app_1014050_src.tar.gz",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d07",
             size = 8165519,
         ),
@@ -358,7 +358,7 @@ object TestDataMidV2 {
     val version2_2 = PackageVersionV2(
         added = 1642785071000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014005.apk",
+            name = "/org.edustore.app_1014005.apk",
             sha256 = "b4282febf5558d43c7c51a00478961f6df1b6d59e0a6674974cdacb792683e5d",
             size = 8382606,
         ),
@@ -397,7 +397,7 @@ object TestDataMidV2 {
             features = listOf(FeatureV2("fake feature")),
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014005_src.tar.gz",
+            name = "/org.edustore.app_1014005_src.tar.gz",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d07",
             size = 8165519,
         ),
@@ -408,7 +408,7 @@ object TestDataMidV2 {
     val version2_3 = PackageVersionV2(
         added = 1635169849000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014003.apk",
+            name = "/org.edustore.app_1014003.apk",
             sha256 = "c062a9642fde08aacabbfa4cab1ab5773c83f4e6b81551ffd92027d2b20f37d3",
             size = 8276110,
         ),
@@ -445,7 +445,7 @@ object TestDataMidV2 {
             ),
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014003_src.tar.gz",
+            name = "/org.edustore.app_1014003_src.tar.gz",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             size = 8165519,
         ),
@@ -455,7 +455,7 @@ object TestDataMidV2 {
     val version2_4 = PackageVersionV2(
         added = 1632281731000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014002.apk",
+            name = "/org.edustore.app_1014002.apk",
             sha256 = "3243c24ee95be0fce0830d72e7d2605e3e24f6ccf4ee72a7c8e720fccd7621a1",
             size = 8284386,
         ),
@@ -492,7 +492,7 @@ object TestDataMidV2 {
             ),
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014002_src.tar.gz",
+            name = "/org.edustore.app_1014002_src.tar.gz",
             sha256 = "7c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             size = 7165519,
         ),
@@ -502,7 +502,7 @@ object TestDataMidV2 {
     val version2_5 = PackageVersionV2(
         added = 1632281729000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014001.apk",
+            name = "/org.edustore.app_1014001.apk",
             sha256 = "7ebfd5eb76f9ec95ba955e549260fe930dc38fb99ed3532f92c93b879aca5610",
             size = 8272166,
         ),
@@ -539,7 +539,7 @@ object TestDataMidV2 {
             ),
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014001_src.tar.gz",
+            name = "/org.edustore.app_1014001_src.tar.gz",
             sha256 = "6c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cb067d510ac6f3e0d07",
             size = 6165519,
         ),
@@ -600,14 +600,14 @@ object TestDataMidV2 {
             webSite = "https://f-droid.org",
             icon = mapOf(
                 LOCALE to FileV2(
-                    name = "/icons/org.fdroid.fdroid.1014050.png",
+                    name = "/icons/org.edustore.app.1014050.png",
                     sha256 = "224a109b2352138c3699760e1683385d0ed50ce526fc7982f8d65757743374bf",
                     size = 1237,
                 ),
             ),
             featureGraphic = mapOf(
                 LOCALE to FileV2(
-                    name = "/org.fdroid.fdroid/en-US/" +
+                    name = "/org.edustore.app/en-US/" +
                         "featureGraphic_PTun9TO4cMFOeiqbvQSrkdcxNUcOFQCymMIaj9UJOAY=.jpg",
                     sha256 = "424a109b2352138c3699760e1683385d0ed50ce526fc7982f8d65757743374bf",
                     size = 4237,
@@ -617,49 +617,49 @@ object TestDataMidV2 {
                 phone = mapOf(
                     LOCALE to listOf(
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-app-details.png",
                             sha256 = "424a109b2352138c3699760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 4237,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-dark-details.png",
                             sha256 = "424a109b2352138c3699760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 44287,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-dark-home.png",
                             sha256 = "424a109b2352138c3699760e1673385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 4587,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-dark-knownvuln.png",
                             sha256 = "424a109b2352138c3699760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 445837,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-knownvuln.png",
                             sha256 = "424a109b2352138c4599760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 4287,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-search.png",
                             sha256 = "424a109b2352138c3694760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 2857,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-updates.png",
                             sha256 = "424a109b2352138c3699750e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
@@ -863,7 +863,7 @@ object TestDataMaxV2 {
             size = 8276110,
         ),
         src = TestDataMidV2.version2_3.src?.copy(
-            name = "/org.fdroid.fdroid_1014003_src.tar.gz",
+            name = "/org.edustore.app_1014003_src.tar.gz",
         ),
         antiFeatures = mapOf(
             "AddOne" to mapOf(LOCALE to "was added this update"),
@@ -903,7 +903,7 @@ object TestDataMaxV2 {
             ),
             icon = mapOf(
                 LOCALE to FileV2(
-                    name = "/org.fdroid.fdroid/en-US/new icon",
+                    name = "/org.edustore.app/en-US/new icon",
                     sha256 = "324a109b2352138c3699760e1683385d1ed50ce526fc7982f8d65757743374ba",
                     size = 2233,
                 )
@@ -912,35 +912,35 @@ object TestDataMaxV2 {
                 phone = mapOf(
                     LOCALE to listOf(
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-app-details.png",
                             sha256 = "424a109b2352138c3699760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 4237,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-dark-details.png",
                             sha256 = "424a109b2352138c3699760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 44287,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-dark-home.png",
                             sha256 = "424a109b2352138c3699760e1673385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 4587,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-search.png",
                             sha256 = "424a109b2352138c3694760e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
                             size = 2857,
                         ),
                         FileV2(
-                            name = "/org.fdroid.fdroid/en-US/phoneScreenshots/" +
+                            name = "/org.edustore.app/en-US/phoneScreenshots/" +
                                 "screenshot-updates.png",
                             sha256 = "424a109b2352138c3699750e1683385d" +
                                 "0ed50ce526fc7982f8d65757743374bf",
@@ -951,7 +951,7 @@ object TestDataMaxV2 {
                 tenInch = mapOf(
                     "ch" to listOf(
                         FileV2(
-                            name = "/org.fdroid.fdroid/ch/tenInchScreenshots/new screenshots",
+                            name = "/org.edustore.app/ch/tenInchScreenshots/new screenshots",
                             sha256 = "54758e380ae76297c7947f107db9ea03" +
                                 "d2933c9d5c110d02046977cf78d43def",
                             size = Long.MIN_VALUE,
@@ -988,12 +988,12 @@ object TestDataMaxV2 {
     val version3_1 = PackageVersionV2(
         added = 1643250075000,
         file = FileV1(
-            name = "/org.fdroid.fdroid_1014050.apk",
+            name = "/org.edustore.app_1014050.apk",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
             size = 8165518,
         ),
         src = FileV2(
-            name = "/org.fdroid.fdroid_1014050_src.tar.gz",
+            name = "/org.edustore.app_1014050_src.tar.gz",
             sha256 = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
             size = 8165518,
         ),

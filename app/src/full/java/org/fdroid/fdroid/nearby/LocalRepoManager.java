@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -10,12 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.apache.commons.io.FileUtils;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.data.Apk;
-import org.fdroid.fdroid.data.App;
-import org.fdroid.fdroid.data.SanitizedFile;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Preferences;
+import org.edustore.app.Utils;
+import org.edustore.app.data.Apk;
+import org.edustore.app.data.App;
+import org.edustore.app.data.SanitizedFile;
 import org.fdroid.index.v1.AppV1;
 import org.fdroid.index.v1.IndexV1;
 import org.fdroid.index.v1.IndexV1Creator;

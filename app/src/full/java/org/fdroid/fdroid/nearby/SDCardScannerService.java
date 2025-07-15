@@ -17,7 +17,7 @@
  * MA 02110-1301, USA.
  */
 
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.Manifest;
 import android.content.Context;
@@ -32,7 +32,7 @@ import androidx.annotation.NonNull;
 import androidx.core.app.JobIntentService;
 import androidx.core.content.ContextCompat;
 
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.Utils;
 import org.fdroid.index.v1.IndexV1UpdaterKt;
 
 import java.io.File;
@@ -52,7 +52,7 @@ import java.util.List;
  * "External Storage"
  * <p>
  * Scanning the removable storage requires that the user allowed it.  This
- * requires both the {@link org.fdroid.fdroid.Preferences#isScanRemovableStorageEnabled()}
+ * requires both the {@link org.edustore.app.Preferences#isScanRemovableStorageEnabled()}
  * and the {@link android.Manifest.permission#READ_EXTERNAL_STORAGE}
  * permission to be enabled.
  *
@@ -64,7 +64,7 @@ public class SDCardScannerService extends JobIntentService {
     public static final String TAG = "SDCardScannerService";
     private static final int JOB_ID = TAG.hashCode();
 
-    private static final String ACTION_SCAN = "org.fdroid.fdroid.nearby.SCAN";
+    private static final String ACTION_SCAN = "org.edustore.app.nearby.SCAN";
 
     private static final List<String> SKIP_DIRS = Arrays.asList(".android_secure", "LOST.DIR");
 
@@ -99,7 +99,7 @@ public class SDCardScannerService extends JobIntentService {
                 String state = Environment.getExternalStorageState(f);
                 if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE)
                         == PackageManager.PERMISSION_GRANTED) {
-                    // remove Android/data/org.fdroid.fdroid/files to get root
+                    // remove Android/data/org.edustore.app/files to get root
                     File sdcard = f.getParentFile().getParentFile().getParentFile().getParentFile();
                     Collections.addAll(files, checkExternalStorage(sdcard, state));
                 } else {

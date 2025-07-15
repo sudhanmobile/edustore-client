@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,12 +26,12 @@ import androidx.work.WorkerParameters;
 
 import org.apache.commons.net.util.SubnetUtils;
 import org.fdroid.database.Repository;
-import org.fdroid.fdroid.BuildConfig;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Hasher;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.BuildConfig;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Hasher;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
 
 import java.net.Inet6Address;
 import java.net.InetAddress;
@@ -69,7 +69,7 @@ import cc.mvdan.accesspoint.WifiApControl;
 public class WifiStateChangeService extends Worker {
     private static final String TAG = "WifiStateChangeService";
 
-    public static final String BROADCAST = "org.fdroid.fdroid.action.WIFI_CHANGE";
+    public static final String BROADCAST = "org.edustore.app.action.WIFI_CHANGE";
     public static final String EXTRA_STATUS = "wifiStateChangeStatus";
 
     private WifiManager wifiManager;

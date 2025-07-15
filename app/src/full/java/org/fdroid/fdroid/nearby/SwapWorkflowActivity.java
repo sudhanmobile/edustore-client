@@ -1,6 +1,6 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
-import static org.fdroid.fdroid.views.main.MainActivity.ACTION_REQUEST_SWAP;
+import static org.edustore.app.views.main.MainActivity.ACTION_REQUEST_SWAP;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -53,16 +53,16 @@ import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-import org.fdroid.fdroid.BuildConfig;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.BluetoothPeer;
-import org.fdroid.fdroid.nearby.peers.Peer;
-import org.fdroid.fdroid.net.BluetoothDownloader;
-import org.fdroid.fdroid.qr.CameraCharacteristicsChecker;
-import org.fdroid.fdroid.views.main.MainActivity;
+import org.edustore.app.BuildConfig;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.BluetoothPeer;
+import org.edustore.app.nearby.peers.Peer;
+import org.edustore.app.net.BluetoothDownloader;
+import org.edustore.app.qr.CameraCharacteristicsChecker;
+import org.edustore.app.views.main.MainActivity;
 
 import java.util.Date;
 import java.util.HashMap;

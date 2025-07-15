@@ -2,8 +2,8 @@ package org.fdroid.download
 
 import mu.KotlinLogging
 import org.fdroid.IndexFile
-import org.fdroid.fdroid.ProgressListener
-import org.fdroid.fdroid.isMatching
+import org.edustore.app.ProgressListener
+import org.edustore.app.isMatching
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -26,14 +26,14 @@ import com.bumptech.glide.Glide;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
 
 import org.fdroid.database.Repository;
-import org.fdroid.fdroid.CompatibilityChecker;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.data.Apk;
-import org.fdroid.fdroid.data.App;
-import org.fdroid.fdroid.installer.InstallManagerService;
-import org.fdroid.fdroid.installer.Installer;
-import org.fdroid.fdroid.net.DownloaderService;
+import org.edustore.app.CompatibilityChecker;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.data.Apk;
+import org.edustore.app.data.App;
+import org.edustore.app.installer.InstallManagerService;
+import org.edustore.app.installer.Installer;
+import org.edustore.app.net.DownloaderService;
 import org.fdroid.index.v1.AppV1;
 import org.fdroid.index.v1.IndexV1;
 import org.fdroid.index.v1.PackageV1;
@@ -49,7 +49,7 @@ import java.util.Map;
 /**
  * This is a view that shows a listing of all apps in the swap repo that this
  * just connected to.  The app listing and search should be replaced by
- * {@link org.fdroid.fdroid.views.apps.AppListActivity}'s plumbing.
+ * {@link org.edustore.app.views.apps.AppListActivity}'s plumbing.
  */
 // TODO merge this with AppListActivity, perhaps there could be AppListView?
 public class SwapSuccessView extends SwapView {

@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -6,10 +6,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.views.installed.InstalledAppListAdapter;
-import org.fdroid.fdroid.views.installed.InstalledAppListItemController;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.views.installed.InstalledAppListAdapter;
+import org.edustore.app.views.installed.InstalledAppListItemController;
 
 import java.util.Set;
 

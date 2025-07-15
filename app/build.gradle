@@ -23,10 +23,10 @@ def getVersionName = { ->
 }
 
 // yes, this actually needs both quotes https://stackoverflow.com/a/41391841
-def privilegedExtensionApplicationId = '"org.fdroid.fdroid.privileged"'
+def privilegedExtensionApplicationId = '"org.edustore.app.privileged"'
 
 android {
-    namespace "org.fdroid.fdroid"
+    namespace "org.edustore.app"
     buildToolsVersion "35.0.0"
 
     compileSdk libs.versions.compileSdk.get().toInteger()
@@ -247,7 +247,7 @@ dependencies {
     androidTestImplementation libs.turbine
 }
 
-// org.fdroid.fdroid.updater.UpdateServiceTest needs app-full-debug.apk
+// org.edustore.app.updater.UpdateServiceTest needs app-full-debug.apk
 android.productFlavors.all { flavor ->
     if (flavor.name == "full") {
         project.afterEvaluate { project ->

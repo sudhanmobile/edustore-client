@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
@@ -15,9 +15,9 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Netstat;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Netstat;
+import org.edustore.app.Utils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;

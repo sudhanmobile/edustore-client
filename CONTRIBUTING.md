@@ -73,7 +73,7 @@ For a quick way to run a specific JUnit/Robolectric test:
 For a quick way to run a specific emulator test:
 
 	./gradlew connectedFullDebugAndroidTest \
-        -Pandroid.testInstrumentationRunnerArguments.class=org.fdroid.fdroid.MainActivityExpressoTest
+        -Pandroid.testInstrumentationRunnerArguments.class=org.edustore.app.MainActivityExpressoTest
 
 
 ## Making releases

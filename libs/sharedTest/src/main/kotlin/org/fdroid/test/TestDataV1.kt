@@ -75,7 +75,7 @@ object TestDataMidV1 {
     )
 
     const val PACKAGE_NAME_1 = TestDataMinV1.PACKAGE_NAME
-    const val PACKAGE_NAME_2 = "org.fdroid.fdroid"
+    const val PACKAGE_NAME_2 = "org.edustore.app"
     val categories = listOf("Cat1", "Cat2", "Cat3")
     val app1 = TestDataMinV1.app.copy(
         packageName = PACKAGE_NAME_1,
@@ -114,8 +114,8 @@ object TestDataMidV1 {
         license = "GPL-3.0-or-later",
         webSite = "https://f-droid.org",
         added = 1295222400000,
-        icon = "org.fdroid.fdroid.1014050.png",
-        packageName = "org.fdroid.fdroid",
+        icon = "org.edustore.app.1014050.png",
+        packageName = "org.edustore.app",
         lastUpdated = 1643250075000,
         localized = mapOf(
             "af" to Localized(
@@ -222,16 +222,16 @@ object TestDataMidV1 {
 
     val version2_1 = PackageV1(
         added = 1643250075000,
-        apkName = "org.fdroid.fdroid_1014050.apk",
+        apkName = "org.edustore.app_1014050.apk",
         hash = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
         hashType = "sha256",
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8165518,
-        srcName = "org.fdroid.fdroid_1014050_src.tar.gz",
+        srcName = "org.edustore.app_1014050_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),
@@ -256,16 +256,16 @@ object TestDataMidV1 {
     )
     val version2_2 = PackageV1(
         added = 1642785071000,
-        apkName = "org.fdroid.fdroid_1014005.apk",
+        apkName = "org.edustore.app_1014005.apk",
         hash = "b4282febf5558d43c7c51a00478961f6df1b6d59e0a6674974cdacb792683e5d",
         hashType = "sha256",
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8382606,
-        srcName = "org.fdroid.fdroid_1014005_src.tar.gz",
+        srcName = "org.edustore.app_1014005_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),
@@ -293,16 +293,16 @@ object TestDataMidV1 {
     )
     val version2_3 = PackageV1(
         added = 1635169849000,
-        apkName = "org.fdroid.fdroid_1014003.apk",
+        apkName = "org.edustore.app_1014003.apk",
         hash = "c062a9642fde08aacabbfa4cab1ab5773c83f4e6b81551ffd92027d2b20f37d3",
         hashType = "sha256",
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8276110,
-        srcName = "org.fdroid.fdroid_1014003_src.tar.gz",
+        srcName = "org.edustore.app_1014003_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),
@@ -327,16 +327,16 @@ object TestDataMidV1 {
     )
     val version2_4 = PackageV1(
         added = 1632281731000,
-        apkName = "org.fdroid.fdroid_1014002.apk",
+        apkName = "org.edustore.app_1014002.apk",
         hash = "3243c24ee95be0fce0830d72e7d2605e3e24f6ccf4ee72a7c8e720fccd7621a1",
         hashType = "sha256",
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8284386,
-        srcName = "org.fdroid.fdroid_1014002_src.tar.gz",
+        srcName = "org.edustore.app_1014002_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),
@@ -361,16 +361,16 @@ object TestDataMidV1 {
     )
     val version2_5 = PackageV1(
         added = 1632281729000,
-        apkName = "org.fdroid.fdroid_1014001.apk",
+        apkName = "org.edustore.app_1014001.apk",
         hash = "7ebfd5eb76f9ec95ba955e549260fe930dc38fb99ed3532f92c93b879aca5610",
         hashType = "sha256",
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8272166,
-        srcName = "org.fdroid.fdroid_1014001_src.tar.gz",
+        srcName = "org.edustore.app_1014001_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),
@@ -537,11 +537,11 @@ object TestDataMaxV1 {
     val version2_3 = TestDataMidV1.version2_3.copy(
         minSdkVersion = 22,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8276110,
-        srcName = "org.fdroid.fdroid_1014003_src.tar.gz",
+        srcName = "org.edustore.app_1014003_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.ACCESS_MEDIA"),
             PermissionV1(name = "android.permission.CHANGE_WIFI_STATE", maxSdk = 32),
@@ -562,17 +562,17 @@ object TestDataMaxV1 {
     )
     val version3_1 = PackageV1(
         added = 1643250075000,
-        apkName = "org.fdroid.fdroid_1014050.apk",
+        apkName = "org.edustore.app_1014050.apk",
         hash = "8c89ce2f42f4a89af8ca6e1ea220f9dfdee220724d8a9cc067d510ac6f3e0d06",
         hashType = "sha256",
         minSdkVersion = 22,
         maxSdkVersion = Int.MAX_VALUE,
         targetSdkVersion = 25,
-        packageName = "org.fdroid.fdroid",
+        packageName = "org.edustore.app",
         sig = "9063aaadfff9cfd811a9c72fb5012f28",
         signer = "43238d512c1e5eb2d6569f4a3afbf5523418b82e0a3ed1552770abb9a9c9ccab",
         size = 8165518,
-        srcName = "org.fdroid.fdroid_1014050_src.tar.gz",
+        srcName = "org.edustore.app_1014050_src.tar.gz",
         usesPermission = listOf(
             PermissionV1(name = "android.permission.INTERNET"),
             PermissionV1(name = "android.permission.ACCESS_NETWORK_STATE"),

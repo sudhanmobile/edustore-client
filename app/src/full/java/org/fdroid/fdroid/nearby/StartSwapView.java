@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -28,10 +28,10 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.android.material.materialswitch.MaterialSwitch;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.Peer;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.Peer;
 
 import java.util.ArrayList;
 

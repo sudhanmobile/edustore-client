@@ -249,7 +249,7 @@ libs database schema:
     - adb devices
     - adb shell input keyevent 82 &
     - ./gradlew installFullDebug
-    - adb shell am start -n org.fdroid.fdroid.debug/org.fdroid.fdroid.views.main.MainActivity
+    - adb shell am start -n org.edustore.app.debug/org.edustore.app.views.main.MainActivity
     - if [ $AVD_SDK -lt 29 ] || ! emulator -accel-check; then
           export FLAG=-Pandroid.testInstrumentationRunnerArguments.notAnnotation=androidx.test.filters.LargeTest;
       fi
@@ -276,7 +276,7 @@ libs database schema:
     - df -h
     - start-emulator.sh
     - ./gradlew installFullDebug
-    - adb shell am start -n org.fdroid.fdroid.debug/org.fdroid.fdroid.views.main.MainActivity
+    - adb shell am start -n org.edustore.app.debug/org.edustore.app.views.main.MainActivity
     - if [ $AVD_SDK -lt 29 ] || ! emulator -accel-check; then
           export FLAG=-Pandroid.testInstrumentationRunnerArguments.notAnnotation=androidx.test.filters.LargeTest;
       fi

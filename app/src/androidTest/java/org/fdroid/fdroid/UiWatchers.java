@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.fdroid.fdroid;
+package org.edustore.app;
 
 import android.util.Log;
 

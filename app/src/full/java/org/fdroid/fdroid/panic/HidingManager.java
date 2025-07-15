@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,9 +11,9 @@ import androidx.core.app.NotificationManagerCompat;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.fdroid.fdroid.BuildConfig;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.views.main.MainActivity;
+import org.edustore.app.BuildConfig;
+import org.edustore.app.R;
+import org.edustore.app.views.main.MainActivity;
 
 /**
  * This class is encapsulating all methods related to hiding the app from the launcher

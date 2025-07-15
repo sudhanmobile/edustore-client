@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import static java.util.Objects.requireNonNull;
 
@@ -22,8 +22,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

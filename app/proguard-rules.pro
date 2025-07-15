@@ -1,7 +1,7 @@
 -dontobfuscate
 -dontoptimize
 -keepattributes SourceFile,LineNumberTable,Exceptions
--keep class org.fdroid.fdroid.** {*;}
+-keep class org.edustore.app.** {*;}
 -dontwarn android.test.**
 
 -dontwarn javax.naming.**

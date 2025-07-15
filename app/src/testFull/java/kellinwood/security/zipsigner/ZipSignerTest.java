@@ -6,7 +6,7 @@ import static org.junit.Assert.fail;
 import org.apache.commons.io.IOUtils;
 import org.bouncycastle.asn1.x500.X500Name;
 import org.bouncycastle.operator.OperatorCreationException;
-import org.fdroid.fdroid.nearby.LocalRepoKeyStore;
+import org.edustore.app.nearby.LocalRepoKeyStore;
 import org.fdroid.index.v1.IndexV1VerifierKt;
 import org.junit.After;
 import org.junit.Before;

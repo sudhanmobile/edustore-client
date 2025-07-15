@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<org.fdroid.fdroid.nearby.SwapView xmlns:tools="http://schemas.android.com/tools"
+<org.edustore.app.nearby.SwapView xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:swap="http://schemas.android.com/apk/res-auto"
     swap:toolbarTitle="@string/swap_send_fdroid"
@@ -54,4 +54,4 @@
 
         </LinearLayout>
     </ScrollView>
-</org.fdroid.fdroid.nearby.SwapView>
+</org.edustore.app.nearby.SwapView>

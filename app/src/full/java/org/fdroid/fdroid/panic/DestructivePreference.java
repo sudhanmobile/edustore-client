@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import androidx.core.content.ContextCompat;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 public class DestructivePreference extends Preference {
     public DestructivePreference(Context context, AttributeSet attrs, int defStyleAttr) {

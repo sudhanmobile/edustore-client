@@ -1,11 +1,11 @@
-package org.fdroid.fdroid.nearby.peers;
+package org.edustore.app.nearby.peers;
 
 import android.net.Uri;
 import android.os.Parcel;
 import android.text.TextUtils;
 
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.nearby.NewRepoConfig;
+import org.edustore.app.R;
+import org.edustore.app.nearby.NewRepoConfig;
 
 public class WifiPeer implements Peer {
 

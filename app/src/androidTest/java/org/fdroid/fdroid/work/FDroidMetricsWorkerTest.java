@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package org.fdroid.fdroid.work;
+package org.edustore.app.work;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,4 +1,4 @@
-package org.fdroid.fdroid;
+package org.edustore.app;
 
 import android.app.Instrumentation;
 import android.content.Context;

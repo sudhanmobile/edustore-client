@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.views.main;
+package org.edustore.app.views.main;
 
 import android.content.Context;
 

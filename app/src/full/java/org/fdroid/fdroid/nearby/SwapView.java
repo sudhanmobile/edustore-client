@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.LayoutRes;
 import androidx.core.content.ContextCompat;
 
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 /**
  * A {@link android.view.View} that registers to handle the swap events from

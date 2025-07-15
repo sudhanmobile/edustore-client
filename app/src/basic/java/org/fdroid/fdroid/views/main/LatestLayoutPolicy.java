@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.views.main;
+package org.edustore.app.views.main;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.fdroid.fdroid.R;
+import org.edustore.app.R;
 
 class LatestLayoutPolicy {
     private final Context context;

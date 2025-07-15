@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.net;
+package org.edustore.app.net;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -13,8 +13,8 @@ import org.fdroid.download.DownloadRequest;
 import org.fdroid.download.HttpDownloader;
 import org.fdroid.download.HttpManager;
 import org.fdroid.download.Mirror;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Utils;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Utils;
 import org.fdroid.index.v1.IndexV1UpdaterKt;
 import org.fdroid.index.v2.IndexV2UpdaterKt;
 import org.junit.Test;

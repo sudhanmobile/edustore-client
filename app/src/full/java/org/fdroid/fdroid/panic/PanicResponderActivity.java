@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.panic;
+package org.edustore.app.panic;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,13 +9,13 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.data.Apk;
-import org.fdroid.fdroid.data.App;
-import org.fdroid.fdroid.data.DBHelper;
-import org.fdroid.fdroid.installer.Installer;
-import org.fdroid.fdroid.installer.InstallerService;
-import org.fdroid.fdroid.installer.PrivilegedInstaller;
+import org.edustore.app.Preferences;
+import org.edustore.app.data.Apk;
+import org.edustore.app.data.App;
+import org.edustore.app.data.DBHelper;
+import org.edustore.app.installer.Installer;
+import org.edustore.app.installer.InstallerService;
+import org.edustore.app.installer.PrivilegedInstaller;
 
 import java.util.ArrayList;
 import java.util.Collections;

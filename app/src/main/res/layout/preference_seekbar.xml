@@ -39,7 +39,7 @@
         android:visibility="gone"
         android:textSize="0sp" />
 
-    <org.fdroid.fdroid.views.SeekBarForegroundThumb
+    <org.edustore.app.views.SeekBarForegroundThumb
         android:id="@+id/seekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

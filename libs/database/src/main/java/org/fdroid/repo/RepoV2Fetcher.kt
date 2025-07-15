@@ -7,7 +7,7 @@ import org.fdroid.download.DownloadRequest
 import org.fdroid.download.DownloaderFactory
 import org.fdroid.download.HttpManager
 import org.fdroid.download.getDigestInputStream
-import org.fdroid.fdroid.getDigestHex
+import org.edustore.app.getDigestHex
 import org.fdroid.index.IndexParser
 import org.fdroid.index.RepoUriBuilder
 import org.fdroid.index.SigningException

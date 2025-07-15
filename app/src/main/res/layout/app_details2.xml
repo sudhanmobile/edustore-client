@@ -5,7 +5,7 @@
     android:id="@+id/rootCoordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.fdroid.fdroid.views.AppDetailsActivity">
+    tools:context="org.edustore.app.views.AppDetailsActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -21,7 +21,7 @@
             app:expandedTitleMarginTop="24dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
-            <org.fdroid.fdroid.views.apps.FeatureImage
+            <org.edustore.app.views.apps.FeatureImage
                 android:id="@+id/feature_graphic"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -48,7 +48,7 @@
         android:clipToPadding="false"
         app:layoutManager="LinearLayoutManager"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="org.fdroid.fdroid.views.AppDetailsActivity"
+        tools:context="org.edustore.app.views.AppDetailsActivity"
         tools:showIn="@layout/app_details2" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

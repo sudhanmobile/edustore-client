@@ -1,4 +1,4 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,11 +17,11 @@ import android.util.Log;
 import androidx.core.content.ContextCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.BonjourPeer;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.BonjourPeer;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

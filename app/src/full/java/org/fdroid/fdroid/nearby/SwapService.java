@@ -1,6 +1,6 @@
-package org.fdroid.fdroid.nearby;
+package org.edustore.app.nearby;
 
-import static org.fdroid.fdroid.views.main.MainActivity.ACTION_REQUEST_SWAP;
+import static org.edustore.app.views.main.MainActivity.ACTION_REQUEST_SWAP;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -30,14 +30,14 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import org.fdroid.database.Repository;
 import org.fdroid.download.Downloader;
 import org.fdroid.download.NotFoundException;
-import org.fdroid.fdroid.FDroidApp;
-import org.fdroid.fdroid.NotificationHelper;
-import org.fdroid.fdroid.Preferences;
-import org.fdroid.fdroid.R;
-import org.fdroid.fdroid.Utils;
-import org.fdroid.fdroid.nearby.peers.Peer;
-import org.fdroid.fdroid.net.DownloaderFactory;
-import org.fdroid.fdroid.net.DownloaderService;
+import org.edustore.app.FDroidApp;
+import org.edustore.app.NotificationHelper;
+import org.edustore.app.Preferences;
+import org.edustore.app.R;
+import org.edustore.app.Utils;
+import org.edustore.app.nearby.peers.Peer;
+import org.edustore.app.net.DownloaderFactory;
+import org.edustore.app.net.DownloaderService;
 import org.fdroid.index.IndexParser;
 import org.fdroid.index.IndexParserKt;
 import org.fdroid.index.SigningException;
