@@ -33,7 +33,8 @@ android {
 
     defaultConfig {
         versionCode 1023050
-        versionName getVersionName()
+        // versionName getVersionName()
+        versionName 1.23.0
         applicationId "org.edustore"
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
