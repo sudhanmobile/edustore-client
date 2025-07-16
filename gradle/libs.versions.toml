@@ -1,5 +1,5 @@
 [versions]
-compileSdk = "36"
+compileSdk = "35"
 kotlin = "2.1.21"
 androidGradlePlugin = "8.7.0"
 androidKspPlugin = "2.1.21-2.0.1" # first version needs to match kotlin version
