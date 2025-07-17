@@ -4,10 +4,10 @@
     <string-array name="default_repos">
 
         <!-- name -->
-        <item>F-Droid</item>
+        <item>Edu-Store</item>
         <!-- address -->
         <item>
-            https://f-droid.org/repo
+            https://github.com/sudhanmobile/edustore-repo
             http://fdroidorg6cooksyluodepej4erfctzk7rrjpjbbr6wx24jh3lqyfwyd.onion/fdroid/repo
             http://dotsrccccbidkzg7oc7oj4ugxrlfbt64qebyunxbrgqhxiwj3nl6vcad.onion/fdroid/repo
             http://ftpfaudev4triw2vxiwzf4334e3mynz7osqgtozhbc77fixncqzbyoyd.onion/fdroid/repo
@@ -31,7 +31,7 @@
             https://de.freedif.org/fdroid/repo
         </item>
         <!-- description -->
-        <item>The official F-Droid Free Software repository. Everything in this repository is always built from the source code.
+        <item>The official Edu-Store Free Software repository. Everything in this repository is always built from the source code.
         </item>
         <!-- version -->
         <item>13</item>
@@ -45,7 +45,7 @@
         </item>
 
         <!-- name -->
-        <item>F-Droid Archive</item>
+        <item>Edu-Store Archive</item>
         <!-- address -->
         <item>
             https://f-droid.org/archive
@@ -72,7 +72,7 @@
             https://de.freedif.org/fdroid/archive
         </item>
         <!-- description -->
-        <item>The archive repository of the F-Droid client. This contains older versions of
+        <item>The archive repository of the Edu-Store client. This contains older versions of
             applications from the main repository.
         </item>
         <!-- version -->
